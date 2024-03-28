@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+form{
+    width: 420px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    backdrop-filter: blur (10px);
+    border: 2px solid rgba(255, 255, 255, .2) ;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 6);
+    padding: 30px 40px;
+}
+form *{
+    color: green;
+    letter-spacing: 0,5px;
+}
+form h1{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 8px;
+}
+::placeholder{
+    color: white;
+}
+button{
+    margin-top: 25px;
+    width: 20%;
+    background-color: green;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    margin-top: 25px;
+    width: 20%;
+    background-color: rgb(68, 193, 149);
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+form p{
+    text-align: center;
+    margin-top: 25px;
+}
+form p a{
+    color: green;
+    text-decoration: none; 
+}
