@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100vw;
+  background-color: #eff6ee;
+  /* background: linear-gradient(45deg, #84cd94, #91c188, #aed696); */
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 60px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.footer1 {
+  grid-template-columns: repeat(3, minmax(200px, 300px));
+}
+
+.footer1,
+.footer2 {
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+}
+
+.footer1 > div {
+  padding: 10px 20px;
+}
+
+.footer1 div.logo {
+  padding: 0 20px 0 0;
+}
+
+.footer1 .logo img {
+  max-width: 220px;
+}
+
+footer .footer1 h5 {
+  font-size: 19px;
+  margin: 0 0 10px 0;
+}
+
+.footer1 .location,
+.footer1 .contact {
+  display: flex;
+}
+
+.footer1 .customer-center img {
+  width: 19px;
+  height: auto;
+  margin-right: 6px;
+}
+
+.footer1 .customer-center p.address {
+  margin: 0 0 5px 25px;
+}
+
+.footer1 .location,
+.footer1 .contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.footer2 .socialmedia ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer2 .socialmedia ul li a img {
+  width: 30px;
+  height: 30px;
+  margin-left: 4px;
+}
+
+@media (max-width: 900px) {
+  footer {
+    padding: 20px 40px 30px;
+  }
+
+  .footer1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer1 .logo img {
+    max-width: 180px;
+  }
+
+  .footer2 {
+    margin-top: 10px;
+  }
+}
