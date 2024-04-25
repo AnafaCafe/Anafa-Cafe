@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Caveat-Regular';
+    src: url('../webfonts/Caveat/Caveat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../webfonts/Inter/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'JacquesFrancois';
+    src: url('../webfonts/Jacques_Francois/JacquesFrancois-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Krub';
+    src: url('../webfonts/Krub/Krub-Regular.ttf') format('truetype');
+}
+
