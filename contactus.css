@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.form{
+    padding: 30px 40px ;
+    margin-bottom: 10px;
+}
+.form input{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 1vw;
+    margin-top: 10px;
+    width: 60vw;
+    height: 3vw;
+    padding: 0 10px;
+}
+.form input:focus{
+    outline: none;
+}
+.form h1{
+    color: #397956;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    display: absolute;
+    margin-inline-start: 10px;
+}
+.contactus >form>label{
+    color: #397956;
+    font-weight: bold;
+    padding-bottom: 0.5w;
+}
+.submit{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #397956;
+    border-radius: 1vw;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    width: 61vw;
+    height: 3vw;
+    border: none;
+}
+.submit:hover{
+    background-color: #245339;
+    color: white;
+}
+.sign{
+    color: #397956;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 1vw;
+    font-weight: bold;
+}
+.sign:hover{
+    color: #245339;
+}
